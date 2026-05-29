@@ -12,19 +12,19 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
-import { Apple, Gift, Scissors } from "lucide-react";
+import { Scissors, Star, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
     <ThemeProvider
-        defaultButtonVariant="text-stagger"
-        defaultTextAnimation="background-highlight"
+        defaultButtonVariant="shift-hover"
+        defaultTextAnimation="reveal-blur"
         borderRadius="soft"
-        contentWidth="mediumLarge"
-        sizing="large"
-        background="floatingGradient"
-        cardStyle="solid"
-        primaryButtonStyle="primary-glow"
+        contentWidth="medium"
+        sizing="medium"
+        background="noiseDiagonalGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="diagonal-gradient"
         secondaryButtonStyle="solid"
         headingFontWeight="semibold"
     >
@@ -45,53 +45,53 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "#contact"},
       ]}
-      logoSrc="http://img.b2bpic.net/free-photo/digital-art-cute-dog_23-2151150524.jpg"
-      logoAlt="WOOF PET MARKET Logo"
-      brandName="WOOF PET MARKET"
-      bottomLeftText="Happy Pets, Happy Owners"
-      bottomRightText="info@woofpetmarket.com"
+      logoSrc="http://img.b2bpic.net/free-photo/vintage-barber-pole-sign_114579-99448.jpg"
+      logoAlt="The Gentleman's Cut Barbershop Logo"
+      brandName="THE GENTLEMAN'S CUT"
+      bottomLeftText="Precision & Style"
+      bottomRightText="appointments@gentlemanscut.com"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboard
       background={{
-        variant: "radial-gradient"}}
-      title="WOOF PET MARKET"
-      description="Your One-Stop Shop for Happy, Healthy Pets. Discover premium food, toys, grooming, and expert care for your beloved companions."
+        variant: "rotated-rays-animated"}}
+      title="THE GENTLEMAN'S CUT"
+      description="Experience the finest in men's grooming. Precision haircuts, classic shaves, and a refined atmosphere tailored for the modern man."
       buttons={[
         {
-          text: "Shop Now",          href: "#products"},
+          text: "Book an Appointment",          href: "#contact"},
         {
           text: "Our Services",          href: "#services"},
       ]}
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-portrait-tanned-dark-haired-woman-with-stylish-bun-smiling-against-wall-bar-with-painted-flamingos_197531-17039.jpg",          alt: "Sarah"},
+          src: "http://img.b2bpic.net/free-photo/handsome-young-afro-american-barber-in-stylish-t-shirt-and-apron-sitting-chair-with-crosses-arms-and-smiling-camera-workplace-background_2221-8255.jpg",          alt: "Skilled Barber Mark"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-male-looking-camera_23-2148179011.jpg",          alt: "Mark"},
+          src: "http://img.b2bpic.net/free-photo/portrait-handsome-young-barber_23-2148184855.jpg",          alt: "Experienced Stylist Alex"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-pretty-woman-outdoors_624325-862.jpg",          alt: "Emily"},
+          src: "http://img.b2bpic.net/free-photo/medium-shot-man-barber-shop_23-2149341416.jpg",          alt: "Master Barber David"},
         {
-          src: "http://img.b2bpic.net/free-photo/front-view-wise-senior-man-posing-studio_23-2149883514.jpg",          alt: "David"},
+          src: "http://img.b2bpic.net/free-photo/smiling-male-looking-camera_23-2148179011.jpg",          alt: "Barber John"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-young-man-glasses-holding-black-pug-pet-staring-camera-amused-smiling-cheerful-stand_1258-144634.jpg",          alt: "Olivia"},
+          src: "http://img.b2bpic.net/free-photo/handsome-young-man-with-dark-hair-beard-white-t-shirt-looking-camera-with-serious-face-indoors_197531-29177.jpg",          alt: "Client Reviewer Tom"},
       ]}
-      avatarText="Join our community of 10,000+ happy pet owners!"
-      imageSrc="http://img.b2bpic.net/free-photo/cat-is-sitting-fence-looking-into-frame-streets-old-city-animals-urban-environment-animal-care-city-ecosystems-idea-coexistence-city-ecosystem_166373-3102.jpg"
-      imageAlt="Happy Golden Retriever in a pet store with toys and food"
+      avatarText="Trusted by 5,000+ satisfied gentlemen!"
+      imageSrc="http://img.b2bpic.net/free-photo/side-view-man-getting-haircut_23-2149341400.jpg"
+      imageAlt="Barber giving a precision haircut in a modern barbershop"
       mediaAnimation="slide-up"
       marqueeItems={[
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/cute-red-river-duck-dog-wearing-plaid-bandana_493961-1043.jpg",          alt: "Happy dog"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/close-up-stylish-haircut-man_23-2149586411.jpg",          alt: "Fresh haircut"},
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/close-up-pet-lifestyle_23-2149180534.jpg",          alt: "Playful kitten"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/high-angle-view-old-fashioned-hairdresser-items_23-2149544975.jpg",          alt: "Classic shave tools"},
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/colorful-fruits-candies-container-sale_23-2147920863.jpg",          alt: "Variety of colorful pet treats"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/man-getting-beard-trimmed-barber-shop_23-2149204098.jpg",          alt: "Beard grooming"},
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/young-woman-with-her-pet-french-bulldog-park_1303-28759.jpg",          alt: "Dog walking on a leash in a park"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/barber-holding-razor-while-man-gets-shaved_23-2149341406.jpg",          alt: "Hot towel shave"},
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/pet-dainties-food_23-2147799971.jpg",          alt: "Healthy pet food in a bowl"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/barber-grooming-client-beard-with-clipper_23-2149341392.jpg",          alt: "Precision beard trim"},
       ]}
     />
   </div>
@@ -99,18 +99,18 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MetricSplitMediaAbout
       useInvertedBackground={false}
-      title="Passionate About Pets Since Day One"
-      description="At Woof Pet Market, we believe every pet deserves the best. Founded by passionate animal lovers, we've dedicated ourselves to providing high-quality products, knowledgeable advice, and a welcoming community for all pet parents. Our mission is to enrich the lives of pets and their families."
+      title="Crafting Style & Confidence for Generations"
+      description="At The Gentleman's Cut, we honor the timeless art of barbering while embracing modern trends. Our experienced barbers are dedicated to delivering not just a cut, but an experience that leaves you feeling refined, confident, and ready to conquer your day. We blend tradition with contemporary style."
       metrics={[
         {
-          value: "10K+",          title: "Happy Pets Served"},
+          value: "10K+",          title: "Happy Clients"},
         {
-          value: "500+",          title: "Premium Brands"},
+          value: "25+",          title: "Years Combined Experience"},
         {
-          value: "15+",          title: "Years of Experience"},
+          value: "5-Star",          title: "Average Rating"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/elderly-person-spendng-tim-with-their-pets_23-2149486377.jpg"
-      imageAlt="Woman petting a dog in a friendly pet shop"
+      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-barber-shop_23-2149341416.jpg"
+      imageAlt="Barber at work in a classic barbershop setting"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -123,35 +123,35 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Professional Grooming",          description: "Full-service baths, stylish haircuts, and nail trims performed by certified groomers in a stress-free environment.",          icon: Scissors,
+          title: "Precision Haircuts",          description: "From classic fades to modern styles, our barbers provide expert cuts tailored to your preferences and head shape.",          icon: Scissors,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-girl-petting-cute-dog_23-2149873440.jpg",              imageAlt: "Dog getting a professional grooming session"},
+              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-getting-haircut-barber-shop_23-2149341395.jpg",              imageAlt: "Man getting a fresh haircut from a barber"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-cute-greyhound-dog_23-2150231878.jpg",              imageAlt: "Grooming tools clean and organized"},
+              imageSrc: "http://img.b2bpic.net/free-photo/hairdresser-trimming-customer-hair_23-2149341421.jpg",              imageAlt: "Close-up of barber using scissors"},
           ]
         },
         {
-          title: "Nutritional Guidance",          description: "Expert advice on diet plans, premium food selections, and supplements tailored to your pet's specific needs and health.",          icon: Apple,
+          title: "Classic Hot Towel Shaves",          description: "Indulge in a luxurious hot towel shave, a timeless ritual for ultimate relaxation and a perfectly smooth finish.",          icon: Star,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/wooden-board-with-healthy-chocolate-cereal-rings-chocolate-pads-corn-flakes_114579-87689.jpg",              imageAlt: "Healthy dog eating nutritious meal"},
+              imageSrc: "http://img.b2bpic.net/free-photo/barber-shaving-mans-beard_23-2149341426.jpg",              imageAlt: "Man enjoying a hot towel shave"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/various-breakfast-cereals-top-view_114579-9721.jpg",              imageAlt: "Bowls of different kibble and wet food"},
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-barber-using-straight-razor_23-2149544971.jpg",              imageAlt: "Close-up of straight razor shaving"},
           ]
         },
         {
-          title: "Accessories & Toys",          description: "A curated selection of durable toys, comfortable beds, stylish collars, and all the essentials for a happy pet life.",          icon: Gift,
+          title: "Expert Beard Trimming",          description: "Keep your beard looking its best with our professional trimming and shaping services, ensuring a clean and sharp look.",          icon: Zap,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-spending-time-with-her-pet_23-2149284087.jpg",              imageAlt: "Colorful pet toys and accessories display"},
+              imageSrc: "http://img.b2bpic.net/free-photo/man-getting-beard-trimmed-barber-shop_23-2149204098.jpg",              imageAlt: "Barber trimming a man's beard"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/dog-sleepwear-walking-lead_23-2147828946.jpg",              imageAlt: "Stack of new pet blankets and beds"},
+              imageSrc: "http://img.b2bpic.net/free-photo/barber-grooming-client-beard-with-clipper_23-2149341392.jpg",              imageAlt: "Barber using clippers for beard trim"},
           ]
         }
       ]}
-      title="Our Services & Specialty Products"
-      description="From nourishing food to pampering spa treatments, we've got everything to keep your furry friends healthy and joyful."
+      title="Our Premier Barbershop Services"
+      description="Discover a full range of grooming services designed to elevate your look and enhance your confidence."
     />
   </div>
 
@@ -164,20 +164,20 @@ export default function LandingPage() {
       carouselMode="buttons"
       products={[
         {
-          id: "p-1",          name: "Woof's Best Dry Dog Food",          price: "$45.99",          variant: "Chicken & Veggies, 15lb",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sweet-pillow-cookies-inside-plate-white_140725-129553.jpg",          imageAlt: "Premium dog food bag"},
+          id: "p-1",          name: "Signature Hair Pomade",          price: "$24.00",          variant: "Strong Hold, Matte Finish",          imageSrc: "http://img.b2bpic.net/free-photo/mens-hair-products_23-2149284144.jpg",          imageAlt: "High-quality hair pomade for men"},
         {
-          id: "p-2",          name: "Purrfect Wet Cat Food",          price: "$2.49",          variant: "Tuna Pate, 5.5oz",          imageSrc: "http://img.b2bpic.net/free-photo/view-cat-eating-food-from-bowl_23-2150798716.jpg",          imageAlt: "Gourmet cat wet food"},
+          id: "p-2",          name: "Luxury Shaving Cream",          price: "$18.00",          variant: "Sandalwood Scent",          imageSrc: "http://img.b2bpic.net/free-photo/men-s-skin-care_23-2149284139.jpg",          imageAlt: "Rich shaving cream for a smooth shave"},
         {
-          id: "p-3",          name: "Durable Squeaky Bone",          price: "$12.99",          variant: "Large, Red",          imageSrc: "http://img.b2bpic.net/free-photo/dried-food-dogs-cats_93675-128513.jpg",          imageAlt: "Durable squeaky dog toy"},
+          id: "p-3",          name: "Beard Oil Elixir",          price: "$28.00",          variant: "Cedarwood & Bergamot",          imageSrc: "http://img.b2bpic.net/free-photo/set-man-shaving-accessories_23-2149284159.jpg",          imageAlt: "Nourishing beard oil for softness"},
         {
-          id: "p-4",          name: "Catnip Mouse Set",          price: "$8.99",          variant: "3-Pack, Assorted Colors",          imageSrc: "http://img.b2bpic.net/free-photo/adorable-cat-lifestyle_23-2151593312.jpg",          imageAlt: "Plush catnip mouse toy"},
+          id: "p-4",          name: "Aftershave Balm",          price: "$22.00",          variant: "Cooling Menthol",          imageSrc: "http://img.b2bpic.net/free-photo/mens-perfume-toiletries_23-2149284154.jpg",          imageAlt: "Soothing aftershave balm"},
         {
-          id: "p-5",          name: "Orthopedic Dog Bed",          price: "$89.99",          variant: "Large, Grey",          imageSrc: "http://img.b2bpic.net/free-photo/black-miniature-schnauzer-sitting-his-bed-house_181624-14803.jpg",          imageAlt: "Luxurious orthopedic dog bed"},
+          id: "p-5",          name: "Classic Barber Comb Set",          price: "$15.00",          variant: "Fine & Wide Tooth",          imageSrc: "http://img.b2bpic.net/free-photo/set-old-fashioned-hairdresser-items_23-2149544978.jpg",          imageAlt: "Professional barber comb set"},
         {
-          id: "p-6",          name: "Adjustable Leather Collar",          price: "$24.99",          variant: "Medium, Brown",          imageSrc: "http://img.b2bpic.net/free-photo/dog-stuff-composition_23-2147799888.jpg",          imageAlt: "Stylish leather dog collar"},
+          id: "p-6",          name: "Shaving Brush & Bowl",          price: "$35.00",          variant: "Badger Hair",          imageSrc: "http://img.b2bpic.net/free-photo/barber-set_23-2147799912.jpg",          imageAlt: "High-quality shaving brush and bowl"},
       ]}
-      title="Discover Our Premium Pet Products"
-      description="Explore a wide range of high-quality food, treats, toys, and accessories carefully selected for your cherished pets."
+      title="Shop Our Premium Grooming Products"
+      description="Elevate your daily routine with our selection of high-quality hair, shave, and beard products, curated for the modern gentleman."
     />
   </div>
 
@@ -186,29 +186,29 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "PetCare Alliance",        "Healthy Paws Club",        "Local Vet Clinic",        "Happy Tails Rescue",        "Gourmet Pet Food Co.",        "Wagging Wonders",        "Furry Friends Foundation"]}
-      title="Trusted by Leading Pet Communities"
-      description="We partner with top brands and local organizations to bring you the best in pet care."
+        "GQ Magazine",        "Men's Health Style",        "Barber's Guild UK",        "Esquire Grooming",        "The Modern Gent",        "Sharp Cuts Journal",        "Urban Groomer Society"]}
+      title="Trusted & Featured in Top Men's Style Publications"
+      description="Our commitment to excellence in grooming has earned us recognition from leading names in men's fashion and lifestyle."
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={false}
-      testimonial="Woof Pet Market has transformed our dog's health with their expert nutritional advice and high-quality food. The staff is incredibly friendly and knowledgeable, always ready to help. It's truly a community for pet lovers!"
+      testimonial="'The Gentleman's Cut is simply the best barbershop I've ever visited. The attention to detail, the relaxing atmosphere, and the exceptional skill of the barbers make every visit a true pleasure. My hair and beard have never looked better!'"
       rating={5}
-      author="Jessica L., Proud Dog Mom"
+      author="Michael B., Satisfied Client"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-blonde-businesswoman-smiling-happy-standing-city_839833-16454.jpg",          alt: "Customer Sarah Johnson"},
+          src: "http://img.b2bpic.net/free-photo/handsome-young-man-with-dark-hair-beard-white-t-shirt-looking-camera-with-serious-face-indoors_197531-29177.jpg",          alt: "Michael B."},
         {
-          src: "http://img.b2bpic.net/free-photo/very-good-smiling-brunette-woman-shows-ok-okay-hand-sign-looking-satisfied-recommend-great-deal-pleased-with-quality-standing-white-background_176420-46695.jpg",          alt: "Customer Michael Chen"},
+          src: "http://img.b2bpic.net/free-photo/smiley-man-posing-city_23-2149397666.jpg",          alt: "David P."},
         {
-          src: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12822.jpg",          alt: "Customer Emily Rodriguez"},
+          src: "http://img.b2bpic.net/free-photo/smiley-young-man-looking-camera_23-2148179018.jpg",          alt: "James L."},
         {
-          src: "http://img.b2bpic.net/free-photo/old-senior-man-with-grey-hair-long-beard-wearing-striped-tshirt-smiling-cheerful-with-open-arms-as-friendly-welcome-positive-confident-greetings_839833-9821.jpg",          alt: "Customer David Kim"},
+          src: "http://img.b2bpic.net/free-photo/close-up-young-male-portrait_23-2149341419.jpg",          alt: "Robert S."},
         {
-          src: "http://img.b2bpic.net/free-photo/image-happy-satisfied-young-man-sitting-near-pug-dog-showing-thumbs-up-smiling-praising-good-product-white-background_1258-75828.jpg",          alt: "Customer Maria G."},
+          src: "http://img.b2bpic.net/free-photo/portrait-handsome-young-barber_23-2148184855.jpg",          alt: "Chris T."},
       ]}
       ratingAnimation="blur-reveal"
       avatarsAnimation="slide-up"
@@ -221,18 +221,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq-1",          title: "What types of pet food do you offer?",          content: "We offer a wide selection of premium pet foods, including dry kibble, wet food, raw food, and specialized diets for various dietary needs and allergies, from trusted organic and natural brands."},
+          id: "faq-1",          title: "What services do you offer?",          content: "We offer a full range of men's grooming services including precision haircuts, classic hot towel shaves, expert beard trims, facials, and grooming consultations."
+        },
         {
-          id: "faq-2",          title: "Do you offer grooming services for all pet sizes?",          content: "Yes, our certified groomers are experienced with all breeds and sizes of dogs and cats. We offer a range of services from basic baths and trims to full-service styling. Please book an appointment online or call us."},
+          id: "faq-2",          title: "How do I book an appointment?",          content: "You can easily book an appointment through our website's booking system, by calling us directly, or by walking in. We recommend booking in advance for guaranteed slots."
+        },
         {
-          id: "faq-3",          title: "Can I bring my pet to the store?",          content: "Absolutely! Well-behaved pets on a leash are always welcome at Woof Pet Market. We love meeting your furry family members!"},
+          id: "faq-3",          title: "Do you offer gift cards?",          content: "Yes, gift cards are available for all services and products, making them the perfect present for the gentleman in your life."
+        },
         {
-          id: "faq-4",          title: "What is your return policy?",          content: "We offer a 30-day return policy on most unopened and unused items with a valid receipt. For pet food, we offer a satisfaction guarantee. Please see our full policy in-store or on our website for details."},
+          id: "faq-4",          title: "What product brands do you use and sell?",          content: "We use and stock a curated selection of premium grooming brands known for their quality and effectiveness. Our barbers can recommend the best products for your specific needs."
+        },
         {
-          id: "faq-5",          title: "Do you offer local delivery?",          content: "Yes, we offer local delivery services within a 10-mile radius for orders over $50. Check our website or contact us for more details and delivery schedules."},
+          id: "faq-5",          title: "What is your cancellation policy?",          content: "We require at least 24 hours' notice for cancellations or rescheduling. Late cancellations may incur a fee. Please refer to our booking terms for full details."
+        }
       ]}
       title="Frequently Asked Questions"
-      description="Find answers to common questions about our products, services, and store policies."
+      description="Find quick answers to common questions about our services, bookings, and products."
       faqsAnimation="slide-up"
     />
   </div>
@@ -240,8 +245,8 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={false}
-      title="Get In Touch With Our Team"
-      description="Have questions or need assistance? Reach out to us, and our friendly pet experts will be happy to help!"
+      title="Schedule Your Visit or Ask a Question"
+      description="Ready for a fresh cut or a relaxing shave? Reach out to us to book your next appointment or inquire about our services."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
@@ -249,13 +254,15 @@ export default function LandingPage() {
         {
           name: "email",          type: "email",          placeholder: "Your Email",          required: true,
         },
+        {
+          name: "phone",          type: "tel",          placeholder: "Your Phone (Optional)"},
       ]}
       textarea={{
-        name: "message",        placeholder: "Your Message",        rows: 4,
+        name: "message",        placeholder: "Your Message / Service Request",        rows: 4,
         required: true,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-dog_23-2149335075.jpg"
-      imageAlt="Friendly pet store staff at counter"
+      imageSrc="http://img.b2bpic.net/free-photo/barber-station-with-tools-chair_23-2149341434.jpg"
+      imageAlt="Modern barbershop interior with empty chair and tools"
       mediaAnimation="slide-up"
       mediaPosition="right"
       buttonText="Send Message"
@@ -264,15 +271,15 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
-      logoSrc="http://img.b2bpic.net/free-photo/digital-art-cute-dog_23-2151150524.jpg"
-      logoAlt="WOOF PET MARKET Logo"
+      logoSrc="http://img.b2bpic.net/free-photo/vintage-barber-pole-sign_114579-99448.jpg"
+      logoAlt="The Gentleman's Cut Barbershop Logo"
       columns={[
         {
           items: [
             {
               label: "About Us",              href: "#about"},
             {
-              label: "Our Team",              href: "#"},
+              label: "Our Barbers",              href: "#"},
             {
               label: "Careers",              href: "#"},
           ],
@@ -280,11 +287,11 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Shop Food",              href: "#products"},
+              label: "Haircuts",              href: "#services"},
             {
-              label: "Grooming",              href: "#services"},
+              label: "Shaves",              href: "#services"},
             {
-              label: "Accessories",              href: "#products"},
+              label: "Products",              href: "#products"},
           ],
         },
         {
@@ -298,7 +305,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="WOOF PET MARKET"
+      logoText="THE GENTLEMAN'S CUT"
     />
   </div>
       </ReactLenis>

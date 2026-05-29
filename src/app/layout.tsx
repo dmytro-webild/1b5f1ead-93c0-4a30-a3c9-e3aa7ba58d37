@@ -7,12 +7,14 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Nunito_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 
 
 
 export const metadata: Metadata = {
-  title: 'WOOF PET MARKET | Your One-Stop Pet Shop',
-  description: 'Discover premium pet food, toys, grooming services, and expert care for your dogs and cats at WOOF PET MARKET. Everything for happy, healthy pets.',
+  title: 'THE GENTLEMAN\'S CUT | Modern Men\'s Barbershop',
+  description: 'Experience precision haircuts, classic hot towel shaves, and expert beard trims in a modern, calm, and contemporary barbershop setting. Book your refined grooming experience today.',
   openGraph: {
     "title": "WOOF PET MARKET | Your One-Stop Pet Shop",
     "description": "Discover premium pet food, toys, grooming services, and expert care for your dogs and cats at WOOF PET MARKET. Everything for happy, healthy pets.",
@@ -36,9 +38,12 @@ export const metadata: Metadata = {
   },
 };
 
-const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
-  subsets: ["latin"],
+
+const manrope = Manrope({
+  variable: "--font-manrope",  subsets: ["latin"],
+});
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -49,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${nunitoSans.variable} antialiased`}>
+        <body className={`${manrope.variable} ${dmSans.variable} antialiased`}>
           <Tag />
           {children}
           <script
