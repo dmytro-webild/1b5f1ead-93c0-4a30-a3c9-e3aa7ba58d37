@@ -105,7 +105,7 @@ export default function LandingPage() {
         },
       ]}
       avatarText="Join our community of 10,000+ happy pet owners!"
-      imageSrc="http://img.b2bpic.net/free-photo/cat-is-sitting-fence-looking-into-frame-streets-old-city-animals-urban-environment-animal-care-city-ecosystems-idea-coexistence-city-ecosystem_166373-3102.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cat-is-sitting-fence-looking-into-frame-streets-old-city-animals-urban-environment-animal-care-city-ecosystems-idea-coexistence-city-ecosystem_166373-3102.jpg?_wi=1"
       imageAlt="Happy Golden Retriever in a pet store with toys and food"
       mediaAnimation="slide-up"
       marqueeItems={[
@@ -157,7 +157,7 @@ export default function LandingPage() {
           title: "Years of Experience",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/elderly-person-spendng-tim-with-their-pets_23-2149486377.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/elderly-person-spendng-tim-with-their-pets_23-2149486377.jpg?_wi=1"
       imageAlt="Woman petting a dog in a friendly pet shop"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -201,7 +201,7 @@ export default function LandingPage() {
               imageAlt: "Bowls of different kibble and wet food",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/cat-is-sitting-fence-looking-into-frame-streets-old-city-animals-urban-environment-animal-care-city-ecosystems-idea-coexistence-city-ecosystem_166373-3102.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cat-is-sitting-fence-looking-into-frame-streets-old-city-animals-urban-environment-animal-care-city-ecosystems-idea-coexistence-city-ecosystem_166373-3102.jpg?_wi=2",
           imageAlt: "dog getting a professional grooming session",
         },
         {
@@ -218,7 +218,7 @@ export default function LandingPage() {
               imageAlt: "Stack of new pet blankets and beds",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/elderly-person-spendng-tim-with-their-pets_23-2149486377.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/elderly-person-spendng-tim-with-their-pets_23-2149486377.jpg?_wi=2",
           imageAlt: "dog getting a professional grooming session",
         },
       ]}
